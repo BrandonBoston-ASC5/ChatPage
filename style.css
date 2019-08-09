@@ -10,7 +10,7 @@
 /* https://coolors.co/36151e-839791-593f62-e3b23c-edebd7 */
 
 :root {
-    --primaryDark:rgb(88, 155, 155);
+    --primaryDark:white(88, 155, 155);
     --primaryLight: tan;
     --accent: rgb(63, 228, 211) ;
     --alternate: rgb(0, 0, 0) ;
@@ -46,7 +46,7 @@ input,
 
 h1 {
     font-size: 45px;
-    color: var(--accent);
+    color: black;
     text-align: center;
 }
 
@@ -98,6 +98,7 @@ input:focus {
 
 .userContainer {
     padding: var(--addedPadding);
+    width:450px;
 }
 
 form,
@@ -113,6 +114,7 @@ form {
 
 .inputContainer {
     grid-template: auto auto/auto;
+    width:90px;
 }
 
 .singleInput {
@@ -138,3 +140,39 @@ form {
     outline-width: 2px;
     outline-color: var(--primarydark);
 }
+.link_btn{
+    display: flex;
+    flex-wrap: wrap;
+    width:200px;
+    height:40px;
+    justify-content: center;
+    border-style: solid;
+    border-color:black;
+    font-size: 25px;
+    text-decoration: none;
+    color:black;
+    background-color:cyan;
+    margin-right:30px;
+
+}
+.link_btn2{
+    display: flex;
+    flex-wrap: wrap;
+    width:200px;
+    height:40px;
+    justify-content: center;
+    border-style: solid;
+    border-color:black;
+    font-size: 25px;
+    text-decoration: none;
+    color:black;
+    background-color:cyan
+}
+#btn{
+    display: flex;
+}
+
+.allMessages{
+    font-size:30px;
+}
+
